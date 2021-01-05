@@ -1,0 +1,86 @@
+.container {
+
+
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mt3 {
+  width: 33%;
+  
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+
+
+.noteBody {
+  width: 100%;
+
+  border: 1px solid #AFADAD;
+
+  background-color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+
+  cursor: default;
+
+  word-wrap: break-word;
+  border-radius: 5px;
+  padding: 20px 20px 5px 20px;
+  align-self: flex-start;
+}
+
+.noteBody:hover {
+
+  box-shadow: 0 0 7px #696868;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.noteDate {
+  font-size: 0.8em;
+  color: #5F5F5F;
+  font-style: italic;
+  align-self: center;
+}
+
+.btnDelete {
+  align-self: center;
+
+  margin-top: 5px;
+
+  border: 0;
+
+  padding: 7px ;
+  border-radius: 50%;
+
+  background-color: #fff;
+
+  cursor: pointer;
+
+  align-self: flex-end;
+
+}
+
+.btnDelete:hover {
+  background-color: #ebebeb;
+}
+
+@media screen and (max-width: 400px){ 
+  .mt3 {
+    width: 80%;
+  }
+}
+
